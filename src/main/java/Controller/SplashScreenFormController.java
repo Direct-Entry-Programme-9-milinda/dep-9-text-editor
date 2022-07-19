@@ -34,7 +34,7 @@ public class SplashScreenFormController {
         var keyFrame3 = new KeyFrame(Duration.millis(2500), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                lblTxt.setText("Setup the UI Logic..!");
+                lblTxt.setText("Setup UI Logic..!");
             }
         });
         var keyFrame4 = new KeyFrame(Duration.millis(3500), new EventHandler<ActionEvent>() {

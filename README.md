@@ -1,5 +1,5 @@
 # Text Editor
-This is a simple Text editor built by JavaFX.
+This is a simple Text editor built by JavaFX. This consists of simple text editing options.
 ![](assets/TextEditor.png)
 
 
