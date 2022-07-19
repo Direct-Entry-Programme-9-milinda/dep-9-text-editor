@@ -21,10 +21,14 @@ public class AppInitializer extends Application {
         Parent splashContainer = FXMLLoader.load(splashResource);
         Scene splashScene = new Scene(splashContainer);
         splashScene.setFill(Color.TRANSPARENT);
-        Stage stage = new Stage(StageStyle.TRANSPARENT);
+        primaryStage.initStyle(StageStyle.TRANSPARENT);
+        primaryStage.setScene(splashScene);
+        primaryStage.show();
+        primaryStage.centerOnScreen();
+        /*Stage stage = new Stage(StageStyle.TRANSPARENT);
         stage.setScene(splashScene);
         stage.show();
-        stage.centerOnScreen();
+        stage.centerOnScreen();*/
 
 
         /*primaryStage.setTitle("Java FX Demo 2");
@@ -33,6 +37,5 @@ public class AppInitializer extends Application {
         Scene scene = new Scene(container);
         primaryStage.setScene(scene);
         primaryStage.show();*/
-
     }
 }
