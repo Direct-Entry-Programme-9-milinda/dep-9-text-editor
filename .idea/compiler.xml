@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dep-9-texteditor" />
         <module name="java-fx-demo2" />
       </profile>
     </annotationProcessing>

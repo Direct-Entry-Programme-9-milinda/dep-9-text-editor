@@ -6,11 +6,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AboutFormController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AboutFormController">
    <children>
       <ImageView fx:id="img1" fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../image/download.jpeg" />
+            <Image url="@../image/logo.png" />
          </image>
       </ImageView>
       <Label fx:id="lbl1" layoutX="247.0" layoutY="155.0" prefHeight="28.0" prefWidth="120.0" text="DEP 9 - Text Editor" />

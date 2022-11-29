@@ -1,4 +1,4 @@
-package Controller;
+package controller;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -13,7 +13,6 @@ import javafx.util.Duration;
 
 import java.io.IOException;
 import java.net.URL;
-import java.sql.Time;
 
 public class SplashScreenFormController {
     public Label lblTxt;
@@ -25,13 +24,13 @@ public class SplashScreenFormController {
                 lblTxt.setText("Initializing the UI..!");
             }
         });
-        var keyFrame2 = new KeyFrame(Duration.millis(1500), new EventHandler<ActionEvent>() {
+        var keyFrame2 = new KeyFrame(Duration.millis(1000), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 lblTxt.setText("Loading Plugins..!");
             }
         });
-        var keyFrame3 = new KeyFrame(Duration.millis(2500), new EventHandler<ActionEvent>() {
+        var keyFrame3 = new KeyFrame(Duration.millis(2000), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 lblTxt.setText("Setup UI Logic..!");

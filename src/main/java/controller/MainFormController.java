@@ -1,4 +1,4 @@
-package Controller;
+package controller;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -47,6 +47,7 @@ public class MainFormController {
                     URL resource = this.getClass().getResource("/view/AboutForm.fxml");
                     Parent container = FXMLLoader.load(resource);
                     Scene scene = new Scene(container);
+
                     Stage stage = new Stage();
                     stage.setScene(scene);
                     stage.setTitle("About");
