@@ -18,25 +18,25 @@ public class SplashScreenFormController {
     public Label lblTxt;
     public void initialize(){
         Timeline timeline = new Timeline();
-        var keyFrame1 = new KeyFrame(Duration.millis(500), new EventHandler<ActionEvent>() {
+        KeyFrame keyFrame1 = new KeyFrame(Duration.millis(500), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 lblTxt.setText("Initializing the UI..!");
             }
         });
-        var keyFrame2 = new KeyFrame(Duration.millis(1000), new EventHandler<ActionEvent>() {
+        KeyFrame keyFrame2 = new KeyFrame(Duration.millis(1000), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 lblTxt.setText("Loading Plugins..!");
             }
         });
-        var keyFrame3 = new KeyFrame(Duration.millis(2000), new EventHandler<ActionEvent>() {
+        KeyFrame keyFrame3 = new KeyFrame(Duration.millis(2000), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 lblTxt.setText("Setup UI Logic..!");
             }
         });
-        var keyFrame4 = new KeyFrame(Duration.millis(3500), new EventHandler<ActionEvent>() {
+        KeyFrame keyFrame4 = new KeyFrame(Duration.millis(3500), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 try {
